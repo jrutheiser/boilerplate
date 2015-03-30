@@ -1,0 +1,21 @@
+default:
+  - 'newer:jshint'
+  - 'build'
+
+build:
+  - 'clean:dist'
+  - 'assemble:dist'
+  - 'wiredep'
+  - 'concurrent:dist'
+  - 'copy:dist'
+  - 'cssmin'
+
+server:
+  - 'clean:server'
+  - 'assemble:server'
+  - 'wiredep'
+  - 'concurrent:server'
+  - 'connect:livereload'
+  - 'watch'
+
+test: []

@@ -1,0 +1,20 @@
+{
+  "buildPaths": {
+    "temp": "tmp",
+    "source": "app",
+    "output": "dist",
+    "tests": "tests",
+    "assets": "assets",
+    "fonts": "fonts",
+    "images": "images",
+    "scripts": "scripts",
+    "styles": "styles",
+    "videos": "videos",
+    "templates": "templates"
+  },
+  "server": {
+    "port": 9000,
+    "host": "127.0.0.1",
+    "liveReload": 35729
+  }
+}

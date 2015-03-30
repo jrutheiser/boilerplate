@@ -1,0 +1,12 @@
+# Installed packages
+node_modules
+bower_components
+
+# Generated files and directories
+.sass-cache
+.idea
+.DS_Store
+
+# Build directories
+tmp
+dist

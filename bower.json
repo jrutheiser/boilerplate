@@ -1,0 +1,9 @@
+{
+  "name": "boilerplate-v2",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.11.2",
+    "bourbon": "~4.2.1"
+  },
+  "devDependencies": {}
+}
